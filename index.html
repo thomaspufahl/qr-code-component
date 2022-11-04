@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Frontend Mentor | QR code component</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			min-height: 100vh;
+			height: 100%;
+			background-color: hsl(212, 45%, 89%);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		main {
+			background-color: hsl(0, 0%, 100%);
+			font-family: 'Outfit', sans-serif;
+			border-radius: 15px;
+			max-width: 430px;
+		}
+
+		main section {
+			flex: 1;
+			background-image: url(./images/image-qr-code.png);
+			height: 350px;
+			width: 350px;
+			margin: 15px;
+			background-size: cover;
+			background-position: center;
+			border-radius: 15px;
+		}
+
+		main aside {
+			flex: 2;
+			margin: 15px;
+			margin-top: 25px;
+			margin-bottom: 40px;
+			max-width: 350px;
+			align-items: center;
+			justify-content: center;
+		}
+
+		main aside header {
+			max-width: 300px;
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+			text-align: center;
+			margin: auto;
+		}
+
+		main aside header h1 {
+			color: hsl(218, 44%, 22%);
+			font-weight: 700;
+		}
+
+		main aside header p {
+			max-width: 250px;
+			margin: auto;
+			font-size: 15px;
+			color: hsl(220, 15%, 55%);
+			font-weight: 400;
+		}
+	</style>
+
+</head>
+
+<!-- Background -->
+
+<body>
+	<!-- Card, main object -->
+	<main>
+		<!-- Container of image -->
+		<section></section>
+		<!-- Container of text -->
+		<aside>
+			<header>
+				<h1>Improve your front-end skills by building projects</h1>
+				<p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+			</header>
+		</aside>
+	</main>
+</body>
+
+</html>
